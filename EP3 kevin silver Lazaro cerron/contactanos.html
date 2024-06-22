@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos - Fifty Coffees</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <audio src="audio/winter-night.mp3" autoplay loop></audio>
+    <main>
+        <header>
+            <h1>Fifty Coffees</h1>
+            <nav>
+                <ul id="menu2">
+                    <li>
+                        <img class="iconos" src="img/corazon.png" alt="corazon">
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/servicio-al-cliente.png" alt="servicio">
+                        <a href="nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/lapiz.png" alt="lapiz">
+                        <a href="blog.html">BLOG</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/foto logo.png" alt="foto">
+                        <a href="galeria.html">GALERIA</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/video logo.png" alt="camara">
+                        <a href="videos.html">VIDEOS</a>
+                    </li>
+                    <li>
+                        <img class="iconos" src="img/agenda.png" alt="contacto">
+                        <a href="contactanos.html">CONTACTANOS</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="contenedor-degradado">
+            <section>
+                <div class="contenedor-contenido">
+                    <section class="info-contacto">
+                        <h2>Información de Contacto</h2>
+                        <table>
+                            <tr>
+                                <td><strong>Dirección:</strong></td>
+                                <td>Jr. Carabaya 552 - Lima Perú<br>Jr. Camaná 758 - Lima Perú</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Teléfonos:</strong></td>
+                                <td>997 577 470 | 980 978 484 | (01) 5335242</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Email:</strong></td>
+                                <td>info@fiftycoffees.com</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Horario de Atención Presencial:</strong></td>
+                                <td>Área de Ventas: De Lunes a Viernes de 8am a 6pm.</td>
+                            </tr>
+                        </table>
+                        <img src="img/chica tomando cafe.jpg    " alt="Café" class="contacto-imagen">
+                    </section>
+                    <section class="formulario-contacto">
+                        <h2>Déjanos tu comentario</h2>
+                        <form action="submit_form.php" method="post">
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            <label for="celular">Celular*</label>
+                            <input type="tel" id="celular" name="celular" required>
+                            <label for="email">Correo electrónico*</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="ruc">RUC (Opcional)</label>
+                            <input type="text" id="ruc" name="ruc">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Detalla tu requerimiento a continuación..." required></textarea>
+                            <button type="submit">ENVIAR</button>
+                        </form>
+                    </section>
+                </div>
+                <section class="mapa">
+                    <h2>Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.7648324069182!2d-77.06699578849978!3d-11.990767688192651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce5123279859%3A0x1ea2cd60418097bd!2sAv.%20Globo%20Terr%C3%A1queo%207131%2C%20Callao%2015301!5e0!3m2!1ses-419!2spe!4v1718251565579!5m2!1ses-419!2spe" width="2000" height="800" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </section>
+            </section>
+        </div>
+        <br>
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img class="redes2" src="img/facebook negro.png"
+                            alt="logo facebook"></a></li>
+                <li><a href="https://www.tiktok.com" target="_blank"><img class="redes2" src="img/tik-tok negro.png"
+                            alt="logo tik-tok"></a></li>
+                <li><a href="https://whatsapp.com" target="_blank"><img class="redes2" src="img/whatsapp negro.png"
+                            alt="logo whatsapp"></a></li>
+            </ul>
+        </footer>
+    </main>
+</body>
+</html>
